@@ -5,7 +5,8 @@ from PyQt6.QtWidgets import QApplication, \
                             QWidget, \
                             QGridLayout, \
                             QLineEdit, \
-                            QPushButton
+                            QPushButton, \
+                            QMainWindow
 
 
 class AgeCalculator(QWidget):
