@@ -7,6 +7,12 @@ from PyQt6.QtWidgets import QApplication, QLabel, QWidget, \
 from PyQt6.QtGui import QAction, QIcon
 
 
+class DataConnection:
+    def __init__(self, database_file):
+        self.database_file = database_file
+
+
+
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
